@@ -6,6 +6,7 @@ This is a Java-based backend system with REST APIs for Vehicle GPS Tracking. The
 ## Table of Contents
 
 - [Features](#features)
+- [Technology used](#technologies-used)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -23,6 +24,17 @@ This is a Java-based backend system with REST APIs for Vehicle GPS Tracking. The
 - **Distance Calculation**: Provides the ability to calculate the distance traveled based on GPS locations stored in the database.
 - **User Authentication**: Ensures that users can only access information about vehicles they own.
 - **Multiple Vehicle Ownership**: Supports scenarios where one user can own multiple vehicles.
+
+## Technologies used
+- Java: The core programming language used for the project.
+- Spring Boot: A powerful framework for building Java applications, used for creating RESTful APIs.
+- Spring Data JPA: Part of the Spring framework, it simplifies database access and manipulation.
+- Spring Web: Enables building web applications using the Spring framework.
+- ModelMapper: A library used for mapping Java objects to each other.
+- Maven: A build automation and project management tool.
+- Jakarta Persistence (JPA): A Java specification for object-relational mapping (ORM).
+- Lombok: A library that simplifies Java code by generating boilerplate code for you.
+
 
 ## Prerequisites
 
