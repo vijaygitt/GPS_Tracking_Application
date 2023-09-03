@@ -29,6 +29,7 @@ This is a Java-based backend system with REST APIs for Vehicle GPS Tracking. The
 - Java: The core programming language used for the project.
 - Spring Boot: A powerful framework for building Java applications, used for creating RESTful APIs.
 - MySQL: Used MySQL, a relational database, as my project's database to storing tha data.
+- Postman: A tool used for testing the APIs used in the project.
 - Spring Data JPA: Part of the Spring framework, it simplifies database access and manipulation.
 - Spring Web: Enables building web applications using the Spring framework.
 - ModelMapper: A library used for mapping Java objects to each other.
