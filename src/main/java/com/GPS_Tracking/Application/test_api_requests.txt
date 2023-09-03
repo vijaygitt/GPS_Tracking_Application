@@ -1,0 +1,81 @@
+These sample data may be used in Postman to test the APIs
+
+Sample Vehicles:
+
+Vehicle 1: Correct sample
+
+{
+    "regNo": "32322KI123",
+    "vehicleModel": "Yamaha1",
+    "purchaseDate": "07-11-2000",
+    "insuranceExp": "17-10-2101"
+}
+
+Vehicle 2: Incorrect sample
+
+{
+    "regNo": "32322",
+    "vehicleModel": "Moto109",
+    "purchaseDate": "07-11-2000",
+    "insuranceExp": "17-10-2101"
+}
+
+Sample Owners:
+
+Owner 1: Correct sample
+
+{
+    "ownerName": "Vijay",
+    "licenseNumber": "12322333jAj12122",
+    "address": "Howrah",
+    "phoneNo": "9893202085",
+    "email": "vijaypoddar.kgec@gmail.com"
+}
+
+Owner 2: Incorrect Sample
+
+{
+    "ownerName": "Sanjay",
+    "licenseNumber": "12322333jAj",
+    "address": "Howrah",
+    "phoneNo": "79888262k1",
+    "email": "vijay.kgec@gmail.com"
+}
+
+Sample GPS Data:
+
+GPS 1: Correct Sample
+
+{
+    "latitude": "1.1",
+    "longitude": "-20"
+}
+
+GPS 2: Incorrect Sample
+
+{
+    "latitude": "91.1",
+    "longitude": "-200"
+}
+
+Sample Vehicle-Owner Mapping:
+
+You can establish a mapping between owners and vehicles after creating a few Owner and vehicle samples:
+
+Mapping 1:
+
+{
+    "vehicleId": "2",
+    "ownerId"  : "1"
+}
+
+Mapping 2:
+
+{
+    "vehicleId": "1",
+    "ownerId"  : "1"
+}
+
+These sample values can be used to demonstrate the GPS tracking project with realistic data.
+Use these values to populate the database and test various API endpoints, such as retrieving GPS data,
+calculating distance traveled, and accessing vehicle information based on ownership.
