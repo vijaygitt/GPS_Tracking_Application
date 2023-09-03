@@ -79,7 +79,7 @@ The following are some of the APIs available in this system:
 
 ## Database Design
 
-The database design includes tables for vehicles, owners, GPS data, and vehicle-owner mapping. For UML diagrams and detailed database schema, please refer to the [Database Design](database_design.md) file.
+The database design includes tables for vehicles, owners, GPS data, and vehicle-owner mapping. For UML diagrams and detailed database schema, please refer to the [Database Design](https://drive.google.com/file/d/1rI3z3GcQUmYZylYpg2nfRf6-gUQggSpy/view?usp=sharing) file.
 
 ## Contributing
 
