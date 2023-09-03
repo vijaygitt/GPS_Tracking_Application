@@ -1,6 +1,5 @@
 # GPS Tracking Backend with REST API
 
-![GPS Tracking](gps_tracking.png)
 
 This is a Java-based backend system with REST APIs for Vehicle GPS Tracking. The system is designed to receive GPS coordinates from 2 Wheeler Vehicles and store them in a database. It provides various functionalities related to vehicle tracking and management.
 
@@ -77,7 +76,6 @@ The following are some of the APIs available in this system:
 - `GET /api/vehicles/{vehicleId}/distance`: Calculate distance traveled for a vehicle within a time frame.
 - `GET /api/owners/vehicles`: Get a list of vehicles owned by the logged-in user.
 
-For detailed API documentation, please refer to the [API Documentation](api.md) file.
 
 ## Database Design
 
